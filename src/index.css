@@ -3,7 +3,18 @@
 :root {
   --font-family: "Outfit", sans-serif;
 
+  --white-color: #ffffff;
   --link-color: #49557e;
   --tomato-color: #ff6347;
   --light-tomato-color: #fff4f2;
+  --button-text-color: #747474;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
