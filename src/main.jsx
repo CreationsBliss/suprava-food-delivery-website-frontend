@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
+import StoreContextProvider from "./context/StoreContext.jsx";
 import "./index.css";
 import Cart from "./pages/Cart/Cart.jsx";
 import Home from "./pages/Home/Home.jsx";
@@ -30,6 +31,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <StoreContextProvider>
+      <RouterProvider router={router} />
+    </StoreContextProvider>
   </React.StrictMode>
 );
