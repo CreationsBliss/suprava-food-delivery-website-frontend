@@ -4,6 +4,7 @@
   --font-family: "Outfit", sans-serif;
 
   --white-color: #ffffff;
+  --black-color: #000000;
   --primary-color: #262626;
   --secondary-color: #808080;
   --link-color: #49557e;
@@ -14,6 +15,8 @@
   --footer-text-color: #d9d9d9;
   --footer-bg-color: #323232;
   --divider-color: #e2e2e2;
+  --login-popup-bg-color: #00000090;
+  --input-field-border-color: #c9c9c9;
 }
 
 @keyframes fadeIn {
