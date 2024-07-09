@@ -4,10 +4,13 @@
   --font-family: "Outfit", sans-serif;
 
   --white-color: #ffffff;
+  --primary-color: #262626;
+  --secondry-color: #808080;
   --link-color: #49557e;
   --tomato-color: #ff6347;
   --light-tomato-color: #fff4f2;
   --button-text-color: #747474;
+  --divider-color: #e2e2e2;
 }
 
 @keyframes fadeIn {
