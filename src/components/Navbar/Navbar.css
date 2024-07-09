@@ -43,11 +43,11 @@
   position: relative;
 }
 .navbar-basket-icon .dot {
-    position: absolute;
-    min-width: 10px;
-    min-height: 10px;
-    background: var(--tomato-color);
-    border-radius: 5px;
-    top: -8px;
-    right: -8px;
+  position: absolute;
+  min-width: 10px;
+  min-height: 10px;
+  background: var(--tomato-color);
+  border-radius: 5px;
+  top: -8px;
+  right: -8px;
 }
