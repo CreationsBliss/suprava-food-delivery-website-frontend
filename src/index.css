@@ -19,6 +19,7 @@
   --input-field-border-color: #c9c9c9;
   --checkout-color: #555555;
   --cart-input-color: #eaeaea;
+  --place-order-input-color: #c5c5c5;
 }
 
 @keyframes fadeIn {
