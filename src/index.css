@@ -17,6 +17,8 @@
   --divider-color: #e2e2e2;
   --login-popup-bg-color: #00000090;
   --input-field-border-color: #c9c9c9;
+  --checkout-color: #555555;
+  --cart-input-color: #eaeaea;
 }
 
 @keyframes fadeIn {
