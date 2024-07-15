@@ -20,6 +20,7 @@
   --checkout-color: #555555;
   --cart-input-color: #eaeaea;
   --place-order-input-color: #c5c5c5;
+  --navbar-profile-bg-color: #fff2ef;
 }
 
 @keyframes fadeIn {
