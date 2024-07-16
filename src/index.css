@@ -21,6 +21,9 @@
   --cart-input-color: #eaeaea;
   --place-order-input-color: #c5c5c5;
   --navbar-profile-bg-color: #fff2ef;
+  --spinner-border-color: #bdbdbd;
+  --myorder-text-color: #454545;
+  --myorder-button-color: #ffe1e1;
 }
 
 @keyframes fadeIn {

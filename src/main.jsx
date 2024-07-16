@@ -6,7 +6,9 @@ import StoreContextProvider from "./context/StoreContext.jsx";
 import "./index.css";
 import Cart from "./pages/Cart/Cart.jsx";
 import Home from "./pages/Home/Home.jsx";
+import MyOrders from "./pages/MyOrders/MyOrders.jsx";
 import PlaceOrder from "./pages/PlaceOrder/PleaceOrder.jsx";
+import Verify from "./pages/Verify/Verify.jsx";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +26,14 @@ const router = createBrowserRouter([
       {
         path: "/order",
         element: <PlaceOrder></PlaceOrder>,
+      },
+      {
+        path: "/verify",
+        element: <Verify></Verify>,
+      },
+      {
+        path: "/myorders",
+        element: <MyOrders></MyOrders>,
       },
     ],
   },
